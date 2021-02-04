@@ -14,30 +14,50 @@
     font-style: normal;
 }
 
-body {
+.light {
+    color: #010101;
+    background-color: #E5E5E5;
+    background-size: 100%;
+}
+
+.wrapper {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #010101;
-    max-width: 1296px;
-
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .list {
     list-style: none;
+    padding-left: 0;
 }
 
 .list li {
     display: inline-block;
 }
 
-.list li a {
+.list__link {
     text-decoration: none;
+    color: #010101;
+    font-size: 14px;
+}
+
+.list__link:hover {
+    color: #D40000;
+}
+
+.foto {
+    margin-bottom: 120px;
+    width: 100%;
 }
 
 .name {
