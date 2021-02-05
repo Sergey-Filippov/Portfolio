@@ -17,7 +17,16 @@
 .light {
     color: #010101;
     background-color: #E5E5E5;
-    background-size: 100%;
+}
+.light .list__link {
+    color: #010101;
+}
+.dark {
+   background-color:#232326 ;
+   color:#F3F2F0 ; 
+}
+.dark .list__link {
+    color: #F3F2F0;
 }
 
 .wrapper {
@@ -41,13 +50,23 @@
     padding-left: 0;
 }
 
-.list li {
+.list__item {
     display: inline-block;
+    padding: 0 16px;
+}
+.list__item:first-child {
+    padding-left: 0;
+}
+.list__item:last-child {
+    padding-right: 0;
+}
+.list__item:last-child::before {
+    left: 16px;
+    border-left: 1px solid #010101;
 }
 
 .list__link {
     text-decoration: none;
-    color: #010101;
     font-size: 14px;
 }
 
