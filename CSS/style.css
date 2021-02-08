@@ -81,6 +81,19 @@
 
 .name {
     font-size: 28px;
+    position: relative;
+   
+}
+.name::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 47px solid  transparent;
+    border-bottom: 95px solid #D40000;
+   left: -173px;
+   top: -75px;
 }
 
 .title__h1 {
