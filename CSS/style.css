@@ -84,7 +84,7 @@
     position: relative;
    
 }
-.name::before {
+/*.name::before {
     content: "";
     display: inline-block;
     position: absolute;
@@ -94,10 +94,40 @@
     border-bottom: 95px solid #D40000;
    left: -173px;
    top: -75px;
-}
+} pain for beefore */
 
 .title__h1 {
     font-size: 74px;
     font-weight: 700;
     text-transform: uppercase;
+    position: relative;
+}
+/*.title__h1::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 253px;
+    height: 253px;
+    color:#fff;
+    border-radius: 50%; 
+    left: -127px;
+    top:-126px;
+}  pain for before  */
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+.projekt {
+    margin: 0;
+    font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+}
+.projekt::after {
+  /*  content:  "\2192"; */
+  content: '';
+  height: 12px;
+  width: 16px;
+  display: inline-block;
+  background-image: url(../img/Arrow\ 1.svg);
 }
