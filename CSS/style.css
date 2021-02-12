@@ -18,13 +18,16 @@
     color: #010101;
     background-color: #E5E5E5;
 }
+
 .light .list__link {
     color: #010101;
 }
+
 .dark {
-   background-color:#232326 ;
-   color:#F3F2F0 ; 
+    background-color: #232326;
+    color: #F3F2F0;
 }
+
 .dark .list__link {
     color: #F3F2F0;
 }
@@ -36,6 +39,7 @@
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 15px;
+    font-size: 14px;
 }
 
 .navigation {
@@ -52,22 +56,28 @@
 
 .list__item {
     display: inline-block;
-    padding: 0 16px;
+    margin: 0 16px;
 }
+
 .list__item:first-child {
     padding-left: 0;
+    margin-left: 0;
 }
+
 .list__item:last-child {
     padding-right: 0;
+    margin-left: 0;
 }
-.list__item:last-child::before {
-    left: 16px;
-    border-left: 1px solid #010101;
+
+
+.list_right .list__item:last-child::before {
+    content:"";
+    padding-left: 16px;
+    border-left: 2px solid rgba(01, 01, 01, 25%);
 }
 
 .list__link {
     text-decoration: none;
-    font-size: 14px;
 }
 
 .list__link:hover {
@@ -82,8 +92,9 @@
 .name {
     font-size: 28px;
     position: relative;
-   
+
 }
+
 /*.name::before {
     content: "";
     display: inline-block;
@@ -102,6 +113,7 @@
     text-transform: uppercase;
     position: relative;
 }
+
 /*.title__h1::before {
     content: "";
     display: inline-block;
@@ -116,18 +128,38 @@
 .social {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 60px;
+    padding-top: 100px;
 }
+
 .projekt {
     margin: 0;
     font-weight: bold;
-font-size: 16px;
-line-height: 150%;
+    font-size: 16px;
+    line-height: 150%;
 }
+
 .projekt::after {
-  /*  content:  "\2192"; */
-  content: '';
-  height: 12px;
-  width: 16px;
-  display: inline-block;
-  background-image: url(../img/Arrow\ 1.svg);
+    /*  content:  "\2192"; */
+    content: '';
+    height: 12px;
+    width: 16px;
+    display: inline-block;
+    background-image: url(../img/Arrow\ 1.svg);
+    margin-left: 15px;
+}
+.skill {
+    display: flex;
+    justify-content: space-between;
+
+}
+.skill__item {
+ width: 22%;
+ line-height: 150%;
+}
+
+.title__h3 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
