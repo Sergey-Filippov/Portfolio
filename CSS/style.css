@@ -38,15 +38,15 @@
     font-style: normal;
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0 15px;
-    font-size: 14px;
+    padding: 0 1em;
+    font-size: 1em;
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 60px;
+    margin-top: 2.5em;
+    margin-bottom: 3.75em;
 }
 
 .list {
@@ -56,24 +56,24 @@
 
 .list__item {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1em;
+    font-size:0.875em ;
 }
 
 .list__item:first-child {
     padding-left: 0;
-    margin-left: 0;
+
 }
 
 .list__item:last-child {
     padding-right: 0;
-    margin-left: 0;
+
 }
 
 
 .list_right .list__item:last-child::before {
-    content:"";
-    padding-left: 16px;
-    border-left: 2px solid rgba(01, 01, 01, 25%);
+    content: "";
+
 }
 
 .list__link {
@@ -85,62 +85,49 @@
 }
 
 .foto {
-    margin-bottom: 120px;
+    margin-bottom: 7.5em;
     width: 100%;
 }
 
 .name {
-    font-size: 28px;
+    font-size: 1.75em;
     position: relative;
 
 }
 
-/*.name::before {
+.name::before {
     content: "";
     display: inline-block;
     position: absolute;
-    width: 0;
-    height: 0;
-    border: 47px solid  transparent;
-    border-bottom: 95px solid #D40000;
-   left: -173px;
-   top: -75px;
-} pain for beefore */
+}
 
 .title__h1 {
-    font-size: 74px;
+    font-size: 4.625em;
     font-weight: 700;
     text-transform: uppercase;
     position: relative;
 }
 
-/*.title__h1::before {
+.title__h1::before {
     content: "";
     display: inline-block;
     position: absolute;
-    width: 253px;
-    height: 253px;
-    color:#fff;
-    border-radius: 50%; 
-    left: -127px;
-    top:-126px;
-}  pain for before  */
+}
+
 .social {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 60px;
-    padding-top: 100px;
+    padding-bottom: 3.75em;
+    padding-top: 6.25em;
 }
 
 .projekt {
     margin: 0;
     font-weight: bold;
-    font-size: 16px;
     line-height: 150%;
 }
 
 .projekt::after {
-    /*  content:  "\2192"; */
     content: '';
     height: 12px;
     width: 16px;
@@ -148,18 +135,20 @@
     background-image: url(../img/Arrow\ 1.svg);
     margin-left: 15px;
 }
+
 .skill {
     display: flex;
     justify-content: space-between;
 
 }
+
 .skill__item {
- width: 22%;
- line-height: 150%;
+    width: 22%;
+    font-size: 0.875em;
+    line-height: 150%;
 }
 
 .title__h3 {
-    font-size: 16px;
-    font-weight: 700;
+       font-weight: 700;
     text-transform: uppercase;
 }
