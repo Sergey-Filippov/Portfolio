@@ -92,8 +92,8 @@
     font-style: normal;
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0 1em;
-    font-size: 1em;
+    padding: 0 16px;
+    font-size: 16px;
 }
 
 .circle_main {
@@ -103,7 +103,7 @@
     z-index: 1;
     top: 0;
     left: -126px;
-    top: calc(50% - 126px);
+    top: calc(50% - 137px);
 }
 
 .circle_nav {
@@ -111,8 +111,8 @@
     width: 106px;
     height: 106px;
     z-index: 1;
-    top: calc(50% - 65px);
-    right: 39px;
+    top: calc(50% - 70px);
+    right: 37px;
 }
 
 .tringle {
@@ -120,15 +120,15 @@
     width: 66px;
     height: 72px;
     z-index: 2;
-    left: -155px;
-    top: -8px;
+    left: -149px;
+    top: -21px;
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
-    margin-top: 2.5em;
-    margin-bottom: 3.75em;
+    margin-top:40px;
+    margin-bottom: 48px;
 }
 
 .list {
@@ -138,8 +138,8 @@
 
 .list__item {
     display: inline-block;
-    padding: 0 1em;
-    font-size: 0.875em;
+    padding: 0 12px;
+    font-size: 14px;
 }
 
 .list__item:first-child {
@@ -180,7 +180,7 @@
 }
 
 .foto {
-    margin-bottom: 7.5em;
+    margin-bottom: 92px;
     width: 100%;
 }
 
@@ -194,23 +194,25 @@
 }
 
 .name {
-    font-size: 1.75em;
+    font-size: 28px;
     position: relative;
     z-index: 3;
 }
 
 .title__h1 {
-    font-size: 4.625em;
+    font-size: 74px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-top: 38px;
+    letter-spacing: 0.03em;
 }
 
 .social {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 3.75em;
-    padding-top: 6.25em;
-    font-size: 1em;
+    padding-bottom: 22px;
+    padding-top: 53px;
+    font-size: 16px;
 }
 
 .social__item:last-child {
@@ -230,7 +232,8 @@
 
 .projekt {
     margin: 0;
-    padding:  11px;
+    padding-left: 2px;
+    padding-bottom:  11px;
     font-weight: bold;
     line-height: 150%;
     transition: border-bottom  0.3s ease 0.3s;
@@ -242,7 +245,7 @@
     height: 12px;
     width: 16px;
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 12px;
 }
 .projekt:hover {
     border-bottom: 2px solid #010101;
@@ -251,15 +254,16 @@
 .skill {
     display: flex;
     justify-content: space-between;
-    margin-top: 61px;
-    margin-bottom: 180px;
+    margin-top: 46px;
+    margin-bottom: 139px;
 }
 
 .skill__item {
-    max-width: 22%;
-    flex: 0 0 22%;
-    font-size: 0.875em;
+    max-width: 23%;
+    flex: 0 0 23%;
+    font-size: 14px;
     line-height: 150%;
+    padding-right: 11px;
 }
 
 .title__h3 {
@@ -267,9 +271,10 @@
     text-transform: uppercase;
 }
 
+
 .about {
     display: grid;
-    grid-template: 262px 227px 167px/repeat(4, 1fr);
+    grid-template: 256px /repeat(4, 1fr);
 }
 
 .about_title {
@@ -280,7 +285,13 @@
     line-height: 150%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-bottom: 34px;
+    padding-bottom: 25px;
+}
+.about_item .title__h3 {
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 0;
+    padding-bottom: 10px;
 }
 
 .about_description {
@@ -289,13 +300,14 @@
     font-size: 28px;
     line-height: 150%;
     opacity: 0.8;
-    padding-bottom: 34px;
+    padding-bottom: 25px;
+    padding-left: 11px;
 }
 
 .about-01 {
     grid-row: 2/3;
     grid-column: 3/4;
-    padding: 60px 30px 30px 0;
+    padding: 63px 30px 18px 11px;
 
     margin: 0;
 }
@@ -303,21 +315,21 @@
 .about-02 {
     grid-row: 2/3;
     grid-column: 4/5;
-    padding: 60px 0 30px 20px;
+    padding: 63px 0 18px 18px;
     margin: 0;
 }
 
 .about-03 {
     grid-row: 3/4;
     grid-column: 3/4;
-    padding: 30px 30px 0 0;
+    padding: 30px 30px 0 11px;
     margin: 0;
 }
 
 .about-04 {
     grid-row: 3/4;
     grid-column: 4/5;
-    padding: 30px 0 0 20px;
+    padding: 30px 0 0 18px;
     margin: 0;
 }
 
@@ -328,7 +340,7 @@
 }
 
 .section_step {
-    padding-top: 180px;
+    padding-top: 161px;
     padding-bottom: 198px;
 }
 
@@ -337,7 +349,7 @@
     justify-content: space-between;
     align-items: center;
     line-height: 150%;
-    padding: 15px 0 15px 0;
+    padding: 12px 0 9px 0;
 }
 
 .step_title {
