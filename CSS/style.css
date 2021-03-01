@@ -441,13 +441,11 @@
 
 .light .nav_tabs_link:focus {
     outline: none;
-    color: #010101;
     border-bottom: 2px solid #010101;
 }
 
-.dark .nav_tabs_link:focus {
+.dark .nav_tabs_link:active {
     outline: none;
-    color: #F3F2F0;
     border-bottom: 2px solid #F3F2F0;
 }
 
